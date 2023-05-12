@@ -1,0 +1,27 @@
+.meals-list {
+    max-width: 740px;
+    margin: 40px auto 0;
+    background-color: #fff;
+    animation: moving 1s ease-in;
+}
+ul {
+    list-style: none;
+}
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+}
+@keyframes moving {
+    0% {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

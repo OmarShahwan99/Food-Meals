@@ -1,0 +1,41 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #912903;
+    padding: 15px 0;
+}
+h2 {
+    margin-bottom: 16px;
+}
+.price {
+    margin-right: 40px;
+    color: #a54b2a;
+    font-weight: bold;
+    font-size: 14px;
+}
+.amount {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+}
+.actions button {
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #a54b2a;
+    background-color: transparent;
+}
+.actions button:hover,
+.actions button:active {
+    background-color: #a54b2a;
+    color: #fff;
+}

@@ -1,0 +1,17 @@
+.meal-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 15px 0;
+    border-bottom: 1px solid #aaa;
+}
+.description p {
+    margin: 10px 0;
+}
+.description span {
+    color: #a54b2a;
+    font-size: 18px;
+    display: block;
+    font-weight: bold;
+}
+
