@@ -1,7 +1,5 @@
 import classes from "./OrderForm.module.css";
 import useInput from "../../hooks/use-input";
-import { useContext } from "react";
-import CartContext from "../../store/cart-context";
 
 const textValidation = (value) => {
   return value.trim() !== "";
