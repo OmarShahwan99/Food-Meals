@@ -2,7 +2,7 @@
 
 in this demo project you can browse defferent meals and choose any one from them and specify meal ammount and fill your information to order.
 
-tools: HTML5, CSS3, Reactjs, Global State Management (Context API), Firebase for fetch and send data.
+tools: HTML5, CSS3, Reactjs, Global State Management (Context API), Firebase for fetching and sending data.
 
 
 ## Available Scripts
