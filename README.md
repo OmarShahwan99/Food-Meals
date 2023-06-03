@@ -4,6 +4,7 @@ in this demo project you can browse defferent meals and choose any one from them
 
 tools: HTML5, CSS3, Reactjs, Global State Management (Context API), Firebase for fetching and sending data.
 
+to browse: https://react-food-meals.netlify.app/
 
 ## Available Scripts
 
